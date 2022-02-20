@@ -5,7 +5,11 @@ void main() {
     print(friends[i].toUpperCase());
   }
   print("Using for in");
+  for (var daniel in friends) {
+    print(daniel);
+  }
   for (var friend in friends) {
     print(friend.toUpperCase());
   }
+
 }

@@ -11,6 +11,7 @@ class Book {
 }
 
 void main() {
+  Book hector = Book("hector");
   Book harryPoter = Book("el Cold");
   harryPoter.title = "hector";
   harryPoter.author = "title";

@@ -1,8 +1,8 @@
-import 'package:console_full_project/console_full_project.dart';
+import 'package:console_full_project/calculate.dart';
 import 'package:test/test.dart';
 
 void main() {
   test('calculate', () {
-    expect(calculate(), 42);
+    expect(calculateAdd(), 28);
   });
 }

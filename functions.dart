@@ -18,7 +18,12 @@ void positionalnamedparamsfunction(String name,
       "tu nombre es ${name}, tienes esta edad ${age}, tienes tantos perros ${perros}");
 }
 
+String daniel(String name) {
+   return "soy daniel ${name}";
+}
+
 void main() {
+  String lodedaniel = daniel("es caga");
   print("Before func");
   drawTtriangle();
   drawTtriangle();
@@ -28,5 +33,5 @@ void main() {
   print("After func");
   print(sayHi("hector", 25));
   positionalparamsfunction("hector", 50, 2);
-  positionalnamedparamsfunction("hector", age:40, perros:4);
+  positionalnamedparamsfunction("hector", age: 40, perros: 4);
 }
